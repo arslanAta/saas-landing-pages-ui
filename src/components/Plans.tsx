@@ -21,23 +21,23 @@ const Plans = () => {
                                 </div>
                                 <ul className="p-5 bg-[#F9FAFB] rounded space-y-5">
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>2 Users</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>2 Files</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Public Share & Comments</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Chat Support</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>New income apps</h2>
                                     </li>
                                     <li>
@@ -57,23 +57,23 @@ const Plans = () => {
                                 </div>
                                 <ul className="p-5 bg-white rounded space-y-5">
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>4 Users</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>All apps</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Unlimited editable exports</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Folders and collaboration</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>All incoming apps</h2>
                                     </li>
                                     <li>
@@ -90,23 +90,23 @@ const Plans = () => {
                                 </div>
                                 <ul className="p-5 bg-[#F9FAFB] rounded space-y-5">
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>All the features of pro plan</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Account success Manager</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Single Sign-on (SSO)</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Co-conception program</h2>
                                     </li>
                                     <li className="flex gap-2">
-                                        <img src={`${path}../img/check-icon.png`} alt="" className="size-6 " />
+                                        <img src={`${path}./img/check-icon.png`} alt="" className="size-6 " />
                                         <h2>Collaboration-Soon</h2>
                                     </li>
                                     <li>
