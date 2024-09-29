@@ -1,4 +1,5 @@
 const Footer = () => {
+    const path = window.location.href
     return (
         <div className="bg-footer pt-24 pb-10">
             <div className="container">
@@ -11,26 +12,26 @@ const Footer = () => {
                         <p className="text-lg text-secondary">_ Aria Zinanrio</p>
                         <div className="flex gap-6">
                             <div>
-                                <img src="../img/profile1.png" alt="" />
+                                <img src={`${path}../img/profile1.png`} alt="" />
                             </div>
                             <div>
-                                <img src="../img/profile2.png" alt="" />
+                                <img src={`${path}../img/profile2.png`} alt="" />
                             </div>
                             <div>
-                                <img src="../img/profile3.png" alt="" />
+                                <img src={`${path}../img/profile3.png`} alt="" />
                             </div>
                             <div>
-                                <img src="../img/profile4.png" alt="" />
+                                <img src={`${path}../img/profile4.png`} alt="" />
                             </div>
                             <div>
-                                <img src="../img/play-white.png" alt="" />
+                                <img src={`${path}../img/play-white.png`} alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="basis-1/2 2xl:basis-1/3">
                         <div className="bg-[#222938] w-full h-full rounded-3xl py-10 px-24 2xl:px-14">
                             <div className="mx-auto w-fit">
-                                <img src="../img/euro.png" alt="" className="mx-auto" />
+                                <img src={`${path}../img/euro.png`} alt="" className="mx-auto" />
                                 <h1 className="text-3xl text-white mt-5 text-center">Get started</h1>
                             </div>
                             <div className="pt-4 space-y-4">
@@ -55,7 +56,7 @@ const Footer = () => {
                             <div className="flex rounded-full p-2 border border-secondary">
                                 <input type="text" className="bg-transparent w-full placeholder:sm placeholder:text-secondary px-2" placeholder="Enter yout email here" />
                                 <button className="p-2 rounded-full bg-primary">
-                                    <img src="../img/arrow-right.png" alt="" />
+                                    <img src={`${path}../img/arrow-right.png`} alt="" />
                                 </button>
                             </div>
                         </div>

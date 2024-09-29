@@ -1,4 +1,5 @@
 const Support = () => {
+    const path = window.location.href
     return (
         <div className="bg-[#f9f8fe] h-[540px]">
             <div className="container h-full">
@@ -10,12 +11,12 @@ const Support = () => {
                         </p>
                         <div className="pt-16 flex gap-20">
                             <div className="space-y-3">
-                                <img src="../img/rating5.png" alt="" />
+                                <img src={`${path}../img/rating5.png`} alt="" />
                                 <p>4.9 / 5 rating </p>
                                 <p className="text-secondary">databricks</p>
                             </div>
                             <div className="space-y-3">
-                                <img src="../img/rating4.png" alt="" />
+                                <img src={`${path}../img/rating4.png`} alt="" />
                                 <p>4.8 / 5 rating </p>
                                 <p className="text-secondary">databricks</p>
                             </div>
@@ -24,7 +25,7 @@ const Support = () => {
                     <div className="basis-1/2 space-y-10">
                         <div className="flex gap-4 items-start">
                             <div className="p-3 bg-white">
-                                <img src="../img/publishing-icon.png" alt="" />
+                                <img src={`${path}../img/publishing-icon.png`} alt="" />
                             </div>
                             <div className="space-y-2">
                                 <h1 className="text-3xl font-bold">Publishing</h1>
@@ -33,7 +34,7 @@ const Support = () => {
                         </div>
                         <div className="flex gap-4 items-start">
                             <div className="p-3 bg-white">
-                                <img src="../img/analytics-icon.png" alt="" />
+                                <img src={`${path}../img/analytics-icon.png`} alt="" />
                             </div>
                             <div className="space-y-2">
                                 <h1 className="text-3xl font-bold">Analytics</h1>
@@ -42,7 +43,7 @@ const Support = () => {
                         </div>
                         <div className="flex gap-4 items-start">
                             <div className="p-3 bg-white">
-                                <img src="../img/engagement-icon.png" alt="" />
+                                <img src={`${path}../img/engagement-icon.png`} alt="" />
                             </div>
                             <div className="space-y-2">
                                 <h1 className="text-3xl font-bold">Engagement</h1>
